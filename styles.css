@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+body {
+  background-image: url(jeremy-thomas-E0AHdsENmDg-unsplash.jpg);
+  background-size: cover;
+  thistle: #CDB6C8ff;
+  oxford-blue: #010A33ff;
+  bdazzled-blue: #405B92ff;
+  indigo-dye: #1B3D6Dff;
+  blue-bell: #8A91C7ff;
+}
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: medium;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: thistle;
+}
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: medium;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: #0091AD;
+}
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: light;
+  margin-left: 10px;
+  color: #CAF7E2;
+}
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: light;
+  margin-left: 10px;
+  color: #CAF7E2;
+}
+.about {
+  background: #272C2F;
+  opacity: 75%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #EEB868;
+  border-radius: 30px;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+.panel {
+  width: 30%;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background: #272C2F;
+  opacity: 85%;
+  padding: 15px 20px 5px 20px;
+  margin: 20px 0 40px 0;
+  border: 1px solid #EEB868;
+  border-radius: 30px;
+}
+.underline {
+  border-bottom: 1px solid #0091AD;
+}
+.navbutton {
+  border: 1px solid #EF767A;
+  border-radius: 30px;
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+.footer {
+  text-align: right;
+  color: #CAF7E2
+}

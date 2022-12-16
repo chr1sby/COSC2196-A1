@@ -8,7 +8,8 @@ h1 {
   font-weight: medium;
   margin: 5px 0px 0px 5px;
   color: rgb(27, 61, 109);
-  text-shadow: 0px 0px 1px rgb(255, 255, 255);
+  text-shadow: 0px 0px 1px rgb(0, 0, 0);
+  font-size: 25px;
 }
 h2 {
   font-family: 'Quicksand', sans-serif;
@@ -38,6 +39,9 @@ a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: underline; }
 a:active { text-decoration: underline; }
+.linkcolour {
+  color: rgb(138, 145, 199);
+}
 .main {
   background: rgba(1, 10, 51, .75);
   padding: 10px;
@@ -56,6 +60,7 @@ a:active { text-decoration: underline; }
 .content {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .panel {
   width: 30%;
@@ -71,6 +76,9 @@ a:active { text-decoration: underline; }
 }
 .underline {
   border-bottom: 1px solid rgb(205, 182, 200);
+}
+.italic {
+  font-style: italic;
 }
 .navbutton {
   border: 2px solid rgb(64, 91, 146);
@@ -102,8 +110,10 @@ a:active { text-decoration: underline; }
   color: rgb(205, 182, 200);
 }
 .photo {
-  width: 90%;
   border-radius: 30px;
   opacity: 100%;
-  vertical-align: middle;
+  max-width:400px;
+  max-height:400px;
+  width: auto;
+  height: auto;
 }

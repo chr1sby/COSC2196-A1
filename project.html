@@ -37,32 +37,67 @@
     <div class="main">
       <h2><span class="underline">Project Idea</span></h2>
       <h3>Overview</h3>
+        <p>Web / phone application that users can access a catalog of games. Aside from having a page for each game, the user will be able to see what games they already own, have access to via a gaming subscription, and their wishlist.</p>
+        <p>Potential for the user dashboard to contain sponsored content, suggesting games the user may be interested in. Also possible income by integrating a referral code in the links to digital game store products.</p>
+        <br>
       <h3>Motivation</h3>
+        <p>It is estimated that around 1.5 billion people worldwide play games on PC and/or Console<sup>1</sup>.</p>
+        <p>No current game catalog includes available games via subscriptions (e.g. XBOX Game Pass, Playstation Plus). Subscription services can be difficult for users to keep up-to-date with, as they change often.</p>
+        <p>Having this information, along with the ability for the user to add games they own, enables the user to easily see what games they can choose from to play. It also can save the user money by being able to check if they have access to the game via one of their subscriptions, before purchasing it (or indeed already own the game, perhaps on another platform).</p>
+        <p>Including some social actions such as following other users and seeing their updates, gives the user more of a connection and opens up new ways to offer tailored game recommendations.</p>
+        <br>
       <h3>Description</h3>
+        <p>The application will start with a dashboard page, showing:
+          <ul>
+            <li>Recent updates from other users/games that are being followed</li>
+            <li>Suggested games from the users library or available for purchase</li>
+            <li>Suggested users based on: who they currently follow; games they follow; games added to their library</li>
+            <li>Icon to access user's profile (e.g. which subscriptions or platforms they use) to help personalise their dashboard content, notifications settings</li>
+            <li>Notifications list of any updates as configured by user</li>
+          </ul>
+        </p>
+        <p>A user would be able to look up and follow other users and see their activity (games recently added / change in game status or rating). A user could also follow a game and toggle updates (to show on their dashboard) for when the game is added/removed to one of their configured subscriptions, changes in digital store availability or pricing, and to receive suggestions on their dashboard of related games. This would be especially helpful when a game might be added/removed from a subscription provider with no other notice.</p>
+        <p>The main function of the application will be the games catalog, which will use an existing public database<sup>2</sup>. The catalog would be searchable/filtered by game status, aggregator review, game name, publisher, platform, release date, digital store name, price, their own rating, and ratings of those they follow.</p>
+        <p>Each catalog item will have:
+          <ul>
+            <li>Data source information (e.g. name, publisher, developer(s), description, release date, genre, image(s), video(s), related game(s), DLCs</li>
+            <li>Review information from aggregator(s) (e.g. Metacritic)</li>
+            <li>Option to give the game your own rating</li>
+            <li>Option to toggle a game status (e.g. 'Completed', 'Playing', 'Favourite', 'Wishlist')</li>
+            <li>Option to follow a game</li>
+            <li>What users they are connected to that have set a game status for that game, along with their status for that game</li>
+            <li>Which platform(s) the game is available on</li>
+            <li>Which digital game store (e.g. Steam, GoG, EPIC Games, XBOX, Playstation, Nintendo, Origin, EA Play) it can be purchased from - ideally with the current price and a link to the item in each game store</li>
+            <li>Current/past streams of gameplay (e.g. twitch, YouTube) for that game, possibly with embedded video so the user can remain on the application</li>
+            <li>Latest news related to the game</li>
+          </ul>
+        </p>
+        <p>The application would likely be either free or a low one-off cost to avoid users having to pay ongoing subscription costs. Perhaps there could be a paid subscription tier with paywalled functionality, or potential for (non-invasive and gaming related) ads. Alongside the possibility of having sponsored game recommendations on the dashboard, and referral payments from digital stores, the project could be financially self-sustaining.</p>
+        <p>Minimal effort would be required when new games are added to the database, as most of the catalog item would be generated from the dataset automatically. It should be possible to automate the other information on the catalog item, by using RSS or APIs from subscription, streaming, and news services.</p>
+        <p>It would also be possible to link the application to a user's social media account to invite / add friends easier, which may improve market penetration. More users would mean better data to target ads / sponsored content, and therefore increase revenue.</p>
+        <br>
       <h3>Tools and Technologies</h3>
+        <p>Website development software (e.g. WordPress, Adobe Dreamweaver) would be required to create a website or web application for users to be able to access their data from any location.</p>
+        <p>Software required to create phone/tablet app (e.g. Appy Pie) which would integrate with the same back-end server as the website, storing the user's data in a (probably third party) cloud-based solution. No personally identifiable information would be collected from the user, to minimise risks associated with storing data remotely. Authentication could be via biometrics on the user's device (with a push notification if logging in via web browser).</p>
+        <p>The imported database of games would be via API from a third party such as Giant Bomb<sup>2</sup> which is freely available and regularly updated, just requiring acknowledgment and a link back to their website. There is some risk of their API being withdrawn or abandoned, which would stop new games appearing in the catalog - will need to have a continuity plan in case this occurs.</p>
+        <p>Financial management / accounts software would also be beneficial to assist with keeping on top of budget.</p>
+        <br>
       <h3>Skills Required</h3>
+        <p>Website development - Full-Stack skills including programming a website, server and database; UI/UX design; ongoing maintenance of same.</p>
+        <p>Mobile App development - Design and build of app, including UI/UX and backend; ongoing maintenance of same.</p>
+        <p>Client Management / Marketing - Liaising with digital game stores and gaming subscription services to access database (e.g. API), monetise referrals for game purchases, sell targeted sponsored game suggestions, possible ads.</p>
+        <p>Risk Management - Develop continuity plan in case of failures such as database provider, malicious attack, misuse of app/data causing the content to be unreliable.</p>
+        <p>Financial - Accounting for income and expenses (and taxes), and aiming to have the project be self-sustaining. Ensuring that financial information is shared so it is used to inform business decisions.</p>
+        <br>
       <h3>Outcome</h3>
+        <p>Successful deployment of this project would enable users to discover games, including those already available to them and those which are available to buy. Users will be able to make cost-effective purchases, with an easy way of comparing prices - potentially saving them money.</p>
+        <p>Digital stores will be able to drive more sales by having competitive prices (or an exclusive game). Combined with the ability to sponsor suggestions to users in a targeted manner, based on their current game interests.</p>
+        <p>There is room for expansion to implement similar technology with other media such as movies, tv shows.</p>
+        <br>
     </div>
-    <div class="content">
-      <div class="panel main">
-        <h3> Writing</h3>
-        <p> Writing</p>
-        <p> Writing</p>
-        <p> Writing</p>
-        <p> Writing</p>
-        <p> Writing</p>
-      </div>
-      <div class="panel main">
-        <h3>More Writing</h3>
-        <p>More Writing</p>
-        <p>More Writing</p>
-        <p>More Writing</p>
-        <p>More Writing</p>
-        <p>More Writing</p>
-      </div>
-      <div class="panel secondary">
-        <img class="photo" src="images/7F807A96-DECD-4A6F-A43F-E64E1D16D2CD_1_105_c.jpeg" alt="me swimming with dolphin">
-      </div>
+    <div class="main">
+      <p><sup>1</sup> Price, B. (2020) <span class="italic">New report shows percentage of global population that plays video games, Game Rant.</span> Available at: https://gamerant.com/3-billion-gamers-report/ (Accessed: December 17, 2022).</p>
+      <p><sup>2</sup><span class="italic"> Giantbomb.com ~ video game reviews, news, videos & forums </span>(no date) <span class="italic">Giant Bomb.</span>. Available at: https://www.giantbomb.com/api/ (Accessed: December 17, 2022).</p>
     </div>
     <div class="footer">
       <footer>
